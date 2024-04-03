@@ -41,7 +41,7 @@ body, html {
 <!---
 <?php if(isset($_POST['input1'])&&isset($_POST['input1'])){eval("echo (".$_POST['input1']."+".$_POST['input2'].");");} ?>
 --->
-<form action="/calculate.php" method="POST" style="text-align: center;">
+<form action="/index.php" method="POST" style="text-align: center;">
   <input type="string" name="input1" class="input-box">
   <span style="font-size: 24px;">+</span>
   <input type="string" name="input2" class="input-box">
