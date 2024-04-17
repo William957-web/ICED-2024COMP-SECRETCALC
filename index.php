@@ -39,7 +39,7 @@ body, html {
 </head>
 <body>
 <!---
-if(isset($_POST['input1'])&&isset($_POST['input1'])){eval("echo (".$_POST['input1']."+".$_POST['input2'].");");}
+if(isset($_POST['input1'])&&isset($_POST['input2'])){eval("echo (".$_POST['input1']."+".$_POST['input2'].");");}
 --->
 <form action="/index.php" method="POST" style="text-align: center;">
   <input type="string" name="input1" class="input-box">
